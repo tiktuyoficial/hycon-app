@@ -38,12 +38,12 @@ export default function Footer() {
             <p>Nuestras redes</p>
           </div>
           <div className="flex gap-4 mt-1 flex-wrap justify-center lg:justify-start">
-              <a
-                href="https://www.facebook.com/profile.php?id=100063509954652"
-                className="flex items-center gap-0.5" target='_blank'>
-                <Icon icon="ic:baseline-facebook" width="16" height="16" />
-                Facebook
-              </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100063509954652"
+              className="flex items-center gap-0.5" target='_blank'>
+              <Icon icon="ic:baseline-facebook" width="16" height="16" />
+              Facebook
+            </a>
             <p className="flex items-center gap-0.5">
               <Icon icon="lets-icons:insta-fill" width="16" height="16" />
               Instagram
@@ -58,7 +58,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="bg-g-80 w-full text-center h-12 flex items-center justify-center font-extralight">
-        Design copyright BizNovaTech. All rights reserved. © 2025
+        Design copyright BizNovaTech. All rights reserved. © {new Date().getFullYear()}
       </div>
     </footer>
   );
