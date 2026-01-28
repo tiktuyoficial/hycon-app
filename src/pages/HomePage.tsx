@@ -1,5 +1,6 @@
 import Alcance from '../components/ALcance';
 import Contactanos from '../components/Contactanos';
+import { ContactWhatsapp } from '../components/ContactWhatsap';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import NuestrosClientes from '../components/NuestrosClientes';
@@ -67,6 +68,7 @@ export default function HomePage() {
       </main>
 
       <Footer />
+      <ContactWhatsapp />
     </div>
   );
 }
