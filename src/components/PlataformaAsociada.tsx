@@ -43,9 +43,13 @@ export default function PlataformaAsociada() {
             </div>
 
             <div>
-              <button className="bg-primary text-[20px] font-semibold px-[28px] py-[8px] rounded-lg self-center lg:self-start">
+              <a
+                href="https://www.tiktuy.lat/"
+                target="_blank"
+                className="bg-primary text-[20px] font-semibold px-[28px] py-[8px] rounded-lg self-center lg:self-start"
+              >
                 Sobre Tiktuy
-              </button>
+              </a>
             </div>
           </div>
 
